@@ -1,0 +1,120 @@
+EnchantingMenu:
+   title: '&8CyberEnchants Shop'
+   size: 3 # 3 rows of gui. 
+# If slot is empty, place FillerItem
+   FillerItem:
+      materialId: 160
+      materialByte: 7 # If block has no byte place 0
+      display-Name: ' '
+      lore:
+      - ' '
+      enchanted: true
+   Enchants: #Set {remove-item} at lore lines that will be removed once the custom enchant is bought
+      water-breathing:
+         name: '&9&lWater Breathing I'
+         display-Name: '&7Water Breathing I'
+         lore:
+         - '{remove-item}&8Click to buy'
+         - '{remove-item} '
+         - '&7Provides you with &cpermanent'
+         - '&9Water Breathing &7on your &dHelmet&7.'
+         - '{remove-item} '
+         - '{remove-item}&a&lCost: {cost}'
+         cost: 15
+         slot: 9
+      night-vision:
+         name: '&d&lNight Vision I'
+         display-Name: '&7Night Vision I'
+         lore:
+         - '{remove-item}&8Click to buy'
+         - '{remove-item} '
+         - '&7Provides you with &cpermanent'
+         - '&aNight Vision &7on your &dHelmet&7.'
+         - '{remove-item} '
+         - '{remove-item}&a&lCost: {cost}'
+         cost: 15
+         slot: 10
+      strength:
+         name: '&4&lStrength II'
+         display-Name: '&7Strength II'
+         lore:
+         - '{remove-item}&8Click to buy'
+         - '{remove-item} '
+         - '&7Provides you with &cpermanent'
+         - '&4Strength II &7on your &dChestplate&7.'
+         - '{remove-item} '
+         - '{remove-item}&a&lCost: {cost}'
+         cost: 40
+         slot: 11
+      saturation:
+         name: '&2&lSaturation I'
+         display-Name: '&7Saturation I'
+         lore:
+         - '{remove-item}&8Click to buy'
+         - '{remove-item} '
+         - '&7Provides you with &cpermanent'
+         - '&eSaturation &7on your &dChestplate&7.'
+         - '{remove-item} '
+         - '{remove-item}&a&lCost: {cost}'
+         cost: 15
+         slot: 12
+      fire-resistance:
+         name: '&6&lFire Resistance I'
+         display-Name: '&7Fire Resistance I'
+         lore:
+         - '{remove-item}&8Click to buy'
+         - '{remove-item} '
+         - '&7Provides you with &cpermanent'
+         - '&6Fire Resistance &7on your &dLeggings&7.'
+         - '{remove-item} '
+         - '{remove-item}&a&lCost: {cost}'
+         cost: 15
+         slot: 13
+      speed:
+         name: '&b&lSpeed II'
+         display-Name: '&7Speed II'
+         lore:
+         - '{remove-item}&8Click to buy'
+         - '{remove-item} '
+         - '&7Provides you with &cpermanent'
+         - '&fSpeed II &7on your &dBoots&7.'
+         - '{remove-item} '
+         - '{remove-item}&a&lCost: {cost}'
+         cost: 40
+         slot: 14
+      jelly-legs:
+         name: '&f&lJelly Legs I'
+         display-Name: '&7Jelly Legs I'
+         lore:
+         - '{remove-item}&8Click to buy'
+         - '{remove-item} '
+         - '&7Nullifies &ffall damage&7!'
+         - '&7Apply the enchant on your &dBoots&7.'
+         - '{remove-item} '
+         - '{remove-item}&a&lCost: {cost}'
+         cost: 30
+         slot: 15
+      grind:
+         name: '&e&lGrind I'
+         display-Name: '&7Grind I'
+         lore:
+         - '{remove-item}&8Click to buy'
+         - '{remove-item} '
+         - '&7Farm more &aexperience&7!'
+         - '&7Apply the enchant on your &dSword&7.'
+         - '{remove-item} '
+         - '{remove-item}&a&lCost: {cost}'
+         cost: 30
+         slot: 16
+      obsidian-breaker:
+         name: '&5&lObsidian Breaker I'
+         display-Name: '&7Obsidian Breaker I'
+         lore:
+         - '{remove-item}&8Click to buy'
+         - '{remove-item} '
+         - '&7Insta-break &5Obsidian&7!'
+         - '&7Apply the enchant on your &dPickaxe&7.'
+         - '{remove-item} '
+         - '{remove-item}&a&lCost: {cost}'
+         cost: 15
+         slot: 17
