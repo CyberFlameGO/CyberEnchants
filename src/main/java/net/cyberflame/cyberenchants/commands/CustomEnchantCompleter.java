@@ -36,6 +36,7 @@ public class CustomEnchantCompleter implements TabCompleter {
 		if (args.length == 1) {
 			listTabulations = new ArrayList<>();
 			listTabulations.add("give");
+			listTabulations.add("reload");
 		} else if (args.length == 3) {
 			listTabulations = new ArrayList<>();
 			listTabulations.add(ChatUtils.chat("&7fireresistance"));
